@@ -1,0 +1,5 @@
+.list1 > li {
+    color: #284600e6;
+    background-color: hsla(260, 15%, 30%,0.2);
+    /* opacity: 0.1; */
+}

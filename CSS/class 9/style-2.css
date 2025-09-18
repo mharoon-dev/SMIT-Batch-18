@@ -1,0 +1,80 @@
+/* * {
+  color: green ;
+} */
+/* h2 {
+  color: blue;
+}
+
+#heading1 {
+  color: yellow;
+}
+
+.headingh2 {
+  color: antiquewhite;
+}
+
+h3,h4,h5 {
+  color: brown;
+} */
+
+
+/* p .spaninPara {
+  color: brown;
+
+} */
+
+/* .listItem {
+  color: yellowgreen;
+} */
+/* 
+.list1 > li {
+  color: purple;
+}
+.list2 > li {
+  color: green;
+} */
+
+p span {
+  color: brown;
+}
+
+div + p {
+  color: aqua !important;
+}
+
+h1 ~ p {
+  color: aqua;
+}
+
+
+h3 {
+  color: green !important;
+}
+
+
+
+
+
+h3 {
+  color: blue ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

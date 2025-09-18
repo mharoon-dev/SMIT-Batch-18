@@ -1,0 +1,36 @@
+/* p[class] {
+    color: rgb(0, 94, 62);
+}
+
+p[id] {
+    color: blue;
+}
+
+.para1 {}
+
+p[class~="para1"] {
+    color: rgb(225, 1, 222);
+} */
+
+p[class="para"] {
+    color: purple;
+}
+
+h1[class^="p"] {
+    color: blue !important;
+
+}
+
+
+div[class="container"] {
+    background-color: blueviolet;
+    color: rgb(115, 241, 115);
+    width: 500px;
+    height: 200px;
+}
+
+
+#paraInContainer {
+    width: 50%;
+    height: 10%;
+}

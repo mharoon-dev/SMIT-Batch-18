@@ -1,0 +1,28 @@
+
+
+@font-face {
+    font-family: "poppin-blackItalic";
+    src: url(./Poppins/Poppins-BlackItalic.ttf);
+}
+@font-face {
+    font-family: "poppin-light";
+    /* src: url(./Poppins/Poppins-Black.ttf); */
+    src: url(./Poppins/Poppins-Light.ttf);
+}
+#para1 {
+    font-family: "poppin-blackItalic";
+}
+#para2 {
+    /* font-family: "poppin-light"; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: lowercase;
+    text-decoration: line-through;
+
+}
+
+#googleLink {
+    /* text-decoration: none; */
+    color: green;
+}

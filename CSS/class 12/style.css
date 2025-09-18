@@ -1,0 +1,62 @@
+#para1 {
+    line-height: 40px;
+    /* letter-spacing: 2px;
+    word-spacing: 40px; */
+    text-align: justify;
+    text-indent: 50px;
+    text-shadow: 36px 24px 5px rgba(238,0,0,0.50);
+}
+
+#para1::first-letter {
+    font-size: 150px;
+    color: aqua;
+    font-family: serif;
+}
+
+#para1::first-line {
+    color: blue !important;
+}
+
+#googleLink {
+    font-size: 100px;
+    color: rgb(9, 107, 107);
+}
+
+#googleLink:visited {
+    color: black;
+}
+
+
+/* #googleLink:hover {
+    color: blue;
+    font-size: 150px;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    font-family: serif;
+    background-color: bisque;
+} */
+
+
+
+
+#submitBtn {
+    width: 150px;
+    height: 70px;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-color:#fff ;
+    color: black;
+}
+
+#submitBtn:focus {
+    background-color: black;
+    color: #fff;
+    width: 250px;
+    height: 250px;
+}
+
+.formInput:focus {
+    color: blueviolet;
+}
+
+
