@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* h1 {
+    font-size: 100px;
+} */
+
+nav {
+  height: 100px;
+  background-color: rgb(199, 76, 45);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#nav-list > li {
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+#humburger-icon {
+  display: none;
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+  /* h1 {
+        font-size: 80px;
+        color: aqua;
+    } */
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  /* h1 {
+        font-size: 50px;
+        color: rgb(0, 168, 28);
+    } */
+
+  #humburger-icon {
+    display: inline;
+  }
+
+  #nav-list {
+    display: none;
+  }
+}
+
+@media (min-width: 0) and (max-width: 480px) {
+  /* h1 {
+        font-size: 20px;
+        color: rgb(126, 0, 131);
+    } */
+
+  #humburger-icon {
+    display: inline;
+  }
+
+  #nav-list {
+    display: none;
+  }
+}

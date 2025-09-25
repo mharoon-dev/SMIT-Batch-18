@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+  height: 100px;
+  background-color: rgb(199, 76, 45);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+  #nav-list > li {
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+
+#humburger-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #humburger-icon {
+    display: inline;
+  }
+
+  #nav-list > li {
+    display: none;
+  }
+}
