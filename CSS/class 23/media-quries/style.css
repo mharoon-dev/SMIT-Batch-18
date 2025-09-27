@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/*************************************** navbar ***************************************/
+nav {
+  height: 100px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: #000;
+  box-shadow: 0px 4px 5px -1px rgba(148, 148, 148, 0.94);
+  -webkit-box-shadow: 0px 4px 5px -1px rgba(148, 148, 148, 0.94);
+  -moz-box-shadow: 0px 4px 5px -1px rgba(148, 148, 148, 0.94);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+#nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#nav-list > li {
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#nav-list > li {
+  list-style: none;
+}
+
+#profile-img > img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+
+  border-radius: 50%;
+}
+
+#humburger-icon {
+  display: none;
+}
+/*************************************** navbar end ***************************************/
+
+/*************************************** Main Layout ***************************************/
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 20%;
+  background-color: #fff;
+  box-shadow: 4px 0px 7px 0px rgba(140, 135, 135, 0.75);
+  -webkit-box-shadow: 4px 0px 7px 0px rgba(140, 135, 135, 0.75);
+  -moz-box-shadow: 4px 0px 7px 0px rgba(140, 135, 135, 0.75);
+  height: 83vh;
+  padding: 15px;
+  position: fixed;
+}
+.right {
+  width: 20%;
+  background-color: #fff;
+  box-shadow: -3px 0px 7px -1px rgba(107, 97, 97, 0.83);
+  -webkit-box-shadow: -3px 0px 7px -1px rgba(107, 97, 97, 0.83);
+  -moz-box-shadow: -3px 0px 7px -1px rgba(107, 97, 97, 0.83);
+  height: 83vh;
+  padding: 15px;
+  position: fixed;
+  right: 0;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+#leftside-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 10px;
+}
+
+#leftside-middle > ul > li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+#rightrside-middle > ul > li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+#leftside-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  top: 27%;
+  color: gray;
+  font-weight: 400;
+}
+
+#rightside-list > li > img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+/*************************************** Main Layout end ***************************************/
+
+/************************************** media quries **************************************/
+@media (min-width: 769px) and (max-width: 1279px) {
+  /* h1 {
+        font-size: 80px;
+        color: aqua;
+    } */
+}
+@media (max-width: 1024px) {
+  #leftside-top > h2 {
+    font-size: 20px;
+  }
+  #leftside-top > p {
+    font-size: 15px;
+  }
+
+  #leftside-bottom {
+    top: 16%;
+    font-size:12px ;
+  }
+  #leftside-middle > ul > li {
+    font-size: 15px;
+    gap: 10px;
+  }
+  .right {
+    display: none;
+  }
+}
+@media (min-width: 481px) and (max-width: 768px) {
+  /* h1 {
+        font-size: 50px;
+        color: rgb(0, 168, 28);
+    } */
+
+  #humburger-icon {
+    display: inline;
+  }
+
+  #nav-list {
+    display: none;
+  }
+
+  /* main layout */
+  .left,
+  .right {
+    display: none;
+  }
+}
+@media (min-width: 0) and (max-width: 480px) {
+  /* h1 {
+        font-size: 20px;
+        color: rgb(126, 0, 131);
+    } */
+
+  #humburger-icon {
+    display: inline;
+  }
+
+  #nav-list {
+    display: none;
+  }
+}
