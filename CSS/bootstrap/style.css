@@ -1,0 +1,7 @@
+.my-btn {
+    background-color: blueviolet;
+    padding: 100px;
+}
+.my-btn:hover {
+    background-color: yellow ;
+}
