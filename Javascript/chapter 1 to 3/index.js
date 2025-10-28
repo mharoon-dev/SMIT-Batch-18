@@ -1,7 +1,9 @@
 var age = 18;
-var name = "ahmad";
-alert(name);
-alert(age);
+var userName = "ahmad";
+alert(userName); // ahmad
+alert(age); // 18
+var age = 19;
+age = 15;
 
 var number1 = 15;
 var number2 = "15";
