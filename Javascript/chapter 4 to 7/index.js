@@ -10,7 +10,7 @@ var num4 = 50;
 
 // aimal 120
 // talha anas 15 45 70
-// wasif 130
+// wasif 130    
 
 var num5 = "15";
 var num6 = 20;
@@ -42,7 +42,7 @@ console.log(number4);
 console.log(number8);
 
 var number10 = 10;
-var number11 = 10 + ++number10;
+var number11 = 10 + number10++;
 console.log(number11);
 console.log(number10); // 10
 number10++; // 11
