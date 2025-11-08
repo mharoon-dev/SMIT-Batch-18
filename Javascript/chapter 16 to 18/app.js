@@ -132,6 +132,7 @@ var cities = [
 //   }
 // }
 
+
 // console.log(x);
 
 // loop chale ga agar condition true hoi
