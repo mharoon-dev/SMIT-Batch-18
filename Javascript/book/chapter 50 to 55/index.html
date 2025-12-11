@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form>
+        ZIP:<br>
+        <input type="text" id="zip" onBlur="fillCity();"><br>
+        City:<br>
+        <input type="text" id="city">
+    </form>
+
+    <p id="slowLoris">
+        this is simple text
+        <a href="javascript:void(0);" onClick="expandLoris();"><em>Click for more.</em></a>
+
+    </p>
+
+    <button onmouseover="placeAList()" onmouseout="hideList()">show list</button>
+
+    <p id="lorisList"></p>
+
+    <img id="img" width="150px" class="img img2" onClick="makeInvisible()"
+        src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmFuZG9tJTIwcGVyc29ufGVufDB8fDB8fHww"
+        alt="">
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>

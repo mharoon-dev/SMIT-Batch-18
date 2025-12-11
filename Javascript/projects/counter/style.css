@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  height: 100vh;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.btnContainer > button {
+    background-color: white;
+    color: black;
+    padding: 15px 25px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.btnContainer > button:hover {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+}
