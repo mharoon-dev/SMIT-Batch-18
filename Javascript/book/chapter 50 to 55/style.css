@@ -1,4 +1,4 @@
-.table {
+/* .table {
   border: 2px solid black;
 }
 td {
@@ -8,4 +8,14 @@ td {
 
 .hidden {
     display: none;
+} */
+
+#para {
+  height: 50px;
+  border: 2px solid red;
+  overflow: hidden;
+}
+
+.showText {
+  height: 300px !important;
 }
