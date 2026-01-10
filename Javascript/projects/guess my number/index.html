@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guess my number</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container d-flex justfiy-content-center flex-column" style="border: 2px solid black;">
+        <br>
+
+        <div class="row">
+            <div class="col-6">
+                <button id="again" onclick="startAgain()">Again</button>
+            </div>
+            <div class="col-6">
+                <span>Between 1 and 20</span>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-12">
+                <h1>Guess My Number!</h1>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-6">
+                <input type="text" id="input">
+            </div>
+            <div class="col-6">
+                <span id="guessText">
+                    enter check to start
+                </span>
+            </div>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-6">
+                <button id="check" onclick="checkTheNumber()">Check!</button>
+            </div>
+            <div class="col-6">
+                <p>Score: <span id="score">20</span></p>
+                <p>HighScore: <span id="highScore">0</span></p>
+            </div>
+        </div>
+        <br>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
